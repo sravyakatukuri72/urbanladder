@@ -1,0 +1,122 @@
+ChromeDriver was started successfully.
+
+
+BookShelves
+The price of the first three bookshelves below Rs.15000:
+Austen Bookshelf/Display Unit:
+Rs.10399
+Austen Bookshelf/Display Unit:
+Rs.10399
+Tetris Side Bookshelf/Display Unit:
+Rs.6799
+BookShelvesDetails.xlsx written successfully on disk.
+PASSED: homePageTitleTest
+PASSED: closePopUpTest
+PASSED: searchBoxTest
+PASSED: searchButtonTest
+PASSED: categoryTest
+PASSED: storageTypeTest
+PASSED: outOfStockTest
+PASSED: RecommandationTest
+PASSED: bookDetailsTest
+
+===============================================
+    Default test
+    Tests run: 9, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 9, Failures: 0, Skips: 0
+===============================================
+
+Study Chairs
+
+3 study chair details with highest recommendation
+Hawley Study Chair:
+Rs.6999
+Galen Study Chair:
+Rs.9349
+Mika Study Chair:
+Rs.13599
+StudyChairsDetails.xlsx written successfully on disk.
+PASSED: homePageTitleTest
+PASSED: closePopUpTest
+PASSED: searchBoxTest
+PASSED: searchButtonTest
+PASSED: chairDetailsTest
+
+===============================================
+    Default test
+    Tests run: 5, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 5, Failures: 0, Skips: 0
+===============================================
+
+
+Collections SubMenu
+
+The submenu list from 'Being at home' column:
+Study Chairs
+Study Tables
+Study Lamps
+Study Sets
+Sofa Beds
+Accent Chairs
+Loveseats
+Floor Lamps
+Day Beds
+Outdoor Tables
+Balcony Swings
+Balcony Chairs
+Ottomans
+MenuList.xlsx written successfully on disk.
+PASSED: homePageTitleTest
+PASSED: closePopUpTest
+PASSED: CollectionButtonTest
+PASSED: subMenuTest
+
+===============================================
+    Default test
+    Tests run: 4, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 4, Failures: 0, Skips: 0
+===============================================
+
+
+Gift Cards
+
+The error message appeared for invalid e-mail: Please include an '@' in the email address. 'genc.cts.com' is missing an '@'.
+
+ScreenShot Successfully Captured.
+PASSED: homePageTitleTest
+PASSED: closePopUpTest
+PASSED: GiftCardButtonTest
+PASSED: selectCardTest
+PASSED: AmountTextBoxTest
+PASSED: RecipientNameTest
+PASSED: senderNameTest
+PASSED: RecipientEmailTest
+PASSED: senderNoTest
+PASSED: errorMessageTest
+PASSED: screenShotTest
+
+===============================================
+    Default test
+    Tests run: 11, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 11, Failures: 0, Skips: 0
+===============================================

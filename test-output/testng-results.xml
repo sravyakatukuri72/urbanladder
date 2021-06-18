@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The price of the first three study chair]]>
+    </line>
+    <line>
+      <![CDATA[Hawley Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.6999]]>
+    </line>
+    <line>
+      <![CDATA[Mika Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.13599]]>
+    </line>
+    <line>
+      <![CDATA[Galen Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.9349]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25819" started-at="2021-06-01T18:32:27Z" finished-at="2021-06-01T18:32:53Z">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="DisplayStudyChairs.searchBoxTest()[pri:3, instance:testScenarios.DisplayStudyChairs@313ac989]" name="searchBoxTest" class="testScenarios.DisplayStudyChairs"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Default test" duration-ms="25819" started-at="2021-06-01T18:32:27Z" finished-at="2021-06-01T18:32:53Z">
+      <class name="testScenarios.DisplayStudyChairs">
+        <test-method status="PASS" signature="initialiseSetUp()[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="initialiseSetUp" is-config="true" duration-ms="8206" started-at="2021-06-02T00:02:27Z" finished-at="2021-06-02T00:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:testScenarios.DisplayStudyChairs@313ac989]" name="homePageTitleTest" duration-ms="43" started-at="2021-06-02T00:02:35Z" finished-at="2021-06-02T00:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="afterMyMethod" is-config="true" duration-ms="15" started-at="2021-06-02T00:02:35Z" finished-at="2021-06-02T00:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageTitleTest status=SUCCESS method=DisplayStudyChairs.homePageTitleTest()[pri:1, instance:testScenarios.DisplayStudyChairs@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+        <test-method status="PASS" signature="closePopUpTest()[pri:2, instance:testScenarios.DisplayStudyChairs@313ac989]" name="closePopUpTest" duration-ms="9272" started-at="2021-06-02T00:02:35Z" finished-at="2021-06-02T00:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUpTest -->
+        <test-method status="PASS" signature="searchBoxTest()[pri:3, instance:testScenarios.DisplayStudyChairs@313ac989]" name="searchBoxTest" duration-ms="2161" started-at="2021-06-02T00:02:44Z" finished-at="2021-06-02T00:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method status="PASS" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="afterMyMethod" is-config="true" duration-ms="0" started-at="2021-06-02T00:02:44Z" finished-at="2021-06-02T00:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closePopUpTest status=SUCCESS method=DisplayStudyChairs.closePopUpTest()[pri:2, instance:testScenarios.DisplayStudyChairs@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+        <test-method status="PASS" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="afterMyMethod" is-config="true" duration-ms="8" started-at="2021-06-02T00:02:47Z" finished-at="2021-06-02T00:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBoxTest status=SUCCESS method=DisplayStudyChairs.searchBoxTest()[pri:3, instance:testScenarios.DisplayStudyChairs@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+        <test-method status="PASS" signature="searchButtonTest()[pri:4, instance:testScenarios.DisplayStudyChairs@313ac989]" name="searchButtonTest" duration-ms="1500" started-at="2021-06-02T00:02:47Z" finished-at="2021-06-02T00:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonTest -->
+        <test-method status="PASS" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="afterMyMethod" is-config="true" duration-ms="8" started-at="2021-06-02T00:02:48Z" finished-at="2021-06-02T00:02:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchButtonTest status=SUCCESS method=DisplayStudyChairs.searchButtonTest()[pri:4, instance:testScenarios.DisplayStudyChairs@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+        <test-method status="PASS" signature="chairDetailsTest()[pri:5, instance:testScenarios.DisplayStudyChairs@313ac989]" name="chairDetailsTest" duration-ms="2645" started-at="2021-06-02T00:02:48Z" finished-at="2021-06-02T00:02:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The price of the first three study chair]]>
+            </line>
+            <line>
+              <![CDATA[Hawley Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.6999]]>
+            </line>
+            <line>
+              <![CDATA[Mika Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.13599]]>
+            </line>
+            <line>
+              <![CDATA[Galen Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.9349]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chairDetailsTest -->
+        <test-method status="PASS" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="afterMyMethod" is-config="true" duration-ms="16" started-at="2021-06-02T00:02:51Z" finished-at="2021-06-02T00:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chairDetailsTest status=SUCCESS method=DisplayStudyChairs.chairDetailsTest()[pri:5, instance:testScenarios.DisplayStudyChairs@313ac989] output=
+The price of the first three study chair]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="quitBrowser" is-config="true" duration-ms="1398" started-at="2021-06-02T00:02:51Z" finished-at="2021-06-02T00:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testScenarios.DisplayStudyChairs@313ac989]" name="endReport" is-config="true" duration-ms="538" started-at="2021-06-02T00:02:52Z" finished-at="2021-06-02T00:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testScenarios.DisplayStudyChairs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
