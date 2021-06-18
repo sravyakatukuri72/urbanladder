@@ -1,0 +1,14 @@
+locators\CollectionsLocators.class
+runscripts\Write_RunScripts.class
+locators\GiftCardsLocators.class
+pages\GiftCardPage.class
+locators\BookShelvesLocators.class
+pages\CollectionSubMenuPage.class
+browser\TestBase.class
+locators\StudyChairLocators.class
+excel\WriteExcel.class
+pages\DisplayChairsPage.class
+excel\ReadExcel.class
+screenshot\CaptureScreen.class
+pages\DisplayBookShelvesPage.class
+ExtentReportListener\ExtentReportManager.class

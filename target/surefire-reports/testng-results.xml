@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The submenu list from 'Being at home' column:]]>
+    </line>
+    <line>
+      <![CDATA[Study Chairs]]>
+    </line>
+    <line>
+      <![CDATA[Study Tables]]>
+    </line>
+    <line>
+      <![CDATA[Study Lamps]]>
+    </line>
+    <line>
+      <![CDATA[Study Sets]]>
+    </line>
+    <line>
+      <![CDATA[Sofa Beds]]>
+    </line>
+    <line>
+      <![CDATA[Accent Chairs]]>
+    </line>
+    <line>
+      <![CDATA[Loveseats]]>
+    </line>
+    <line>
+      <![CDATA[Floor Lamps]]>
+    </line>
+    <line>
+      <![CDATA[Day Beds]]>
+    </line>
+    <line>
+      <![CDATA[Outdoor Tables]]>
+    </line>
+    <line>
+      <![CDATA[Balcony Swings]]>
+    </line>
+    <line>
+      <![CDATA[Balcony Chairs]]>
+    </line>
+    <line>
+      <![CDATA[Ottomans]]>
+    </line>
+    <line>
+      <![CDATA[
+The price of the first three study chair]]>
+    </line>
+    <line>
+      <![CDATA[Mika Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.13599]]>
+    </line>
+    <line>
+      <![CDATA[Dorsey Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.4399]]>
+    </line>
+    <line>
+      <![CDATA[Hawley Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.6999]]>
+    </line>
+    <line>
+      <![CDATA[
+The price of the first three bookshelves below Rs.15000:]]>
+    </line>
+    <line>
+      <![CDATA[Boeberg Cabinet Inserts:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.899]]>
+    </line>
+    <line>
+      <![CDATA[Boeberg Cabinet Inserts:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.1699]]>
+    </line>
+    <line>
+      <![CDATA[Boeberg Drawer Inserts:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.2699]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-19T12:37:44 IST" name="Suite" finished-at="2021-04-19T12:40:55 IST" duration-ms="190785">
+    <groups>
+      <group name="Regression Test">
+        <method signature="ValidateBookDetails.closePopUpTest()[pri:2, instance:testcases.ValidateBookDetails@736d6a5c]" name="closePopUpTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateChairDetails.closePopUpTest()[pri:2, instance:testcases.ValidateChairDetails@17cdf2d0]" name="closePopUpTest" class="testcases.ValidateChairDetails"/>
+        <method signature="ValidateGiftCardEntry.closePopUpTest()[pri:2, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="closePopUpTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateSubMenu.homePageTitleTest()[pri:1, instance:testcases.ValidateSubMenu@2e9fda69]" name="homePageTitleTest" class="testcases.ValidateSubMenu"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="ValidateBookDetails.RecommandationTest()[pri:8, instance:testcases.ValidateBookDetails@736d6a5c]" name="RecommandationTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.bookDetailsTest()[pri:9, instance:testcases.ValidateBookDetails@736d6a5c]" name="bookDetailsTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.categoryTest()[pri:5, instance:testcases.ValidateBookDetails@736d6a5c]" name="categoryTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.homePageTitleTest()[pri:1, instance:testcases.ValidateBookDetails@736d6a5c]" name="homePageTitleTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.outOfStockTest()[pri:7, instance:testcases.ValidateBookDetails@736d6a5c]" name="outOfStockTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.searchBoxTest()[pri:3, instance:testcases.ValidateBookDetails@736d6a5c]" name="searchBoxTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.searchButtonTest()[pri:4, instance:testcases.ValidateBookDetails@736d6a5c]" name="searchButtonTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.storageTypeTest()[pri:6, instance:testcases.ValidateBookDetails@736d6a5c]" name="storageTypeTest" class="testcases.ValidateBookDetails"/>
+        <method signature="ValidateChairDetails.chairDetailsTest()[pri:5, instance:testcases.ValidateChairDetails@17cdf2d0]" name="chairDetailsTest" class="testcases.ValidateChairDetails"/>
+        <method signature="ValidateChairDetails.homePageTitleTest()[pri:1, instance:testcases.ValidateChairDetails@17cdf2d0]" name="homePageTitleTest" class="testcases.ValidateChairDetails"/>
+        <method signature="ValidateChairDetails.searchBoxTest()[pri:3, instance:testcases.ValidateChairDetails@17cdf2d0]" name="searchBoxTest" class="testcases.ValidateChairDetails"/>
+        <method signature="ValidateChairDetails.searchButtonTest()[pri:4, instance:testcases.ValidateChairDetails@17cdf2d0]" name="searchButtonTest" class="testcases.ValidateChairDetails"/>
+        <method signature="ValidateGiftCardEntry.AmountTextBoxTest()[pri:5, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="AmountTextBoxTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.GiftCardButtonTest()[pri:3, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="GiftCardButtonTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.RecipientEmailTest()[pri:8, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="RecipientEmailTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.RecipientNameTest()[pri:6, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="RecipientNameTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.errorMessageTest()[pri:10, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="errorMessageTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.homePageTitleTest()[pri:1, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="homePageTitleTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.screenShotTest()[pri:11, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="screenShotTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.selectCardTest()[pri:4, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="selectCardTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.senderNameTest()[pri:7, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="senderNameTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateGiftCardEntry.senderNoTest()[pri:9, instance:testcases.ValidateGiftCardEntry@1755e85b]" name="senderNoTest" class="testcases.ValidateGiftCardEntry"/>
+        <method signature="ValidateSubMenu.CollectionButtonTest()[pri:3, instance:testcases.ValidateSubMenu@2e9fda69]" name="CollectionButtonTest" class="testcases.ValidateSubMenu"/>
+        <method signature="ValidateSubMenu.closePopUpTest()[pri:2, instance:testcases.ValidateSubMenu@2e9fda69]" name="closePopUpTest" class="testcases.ValidateSubMenu"/>
+        <method signature="ValidateSubMenu.subMenuTest()[pri:4, instance:testcases.ValidateSubMenu@2e9fda69]" name="subMenuTest" class="testcases.ValidateSubMenu"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2021-04-19T12:37:44 IST" name="Test" finished-at="2021-04-19T12:40:55 IST" duration-ms="190785">
+      <class name="testcases.ValidateGiftCardEntry">
+        <test-method is-config="true" signature="initialiseSetUp()[pri:0, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:39:34 IST" name="initialiseSetUp" finished-at="2021-04-19T12:39:50 IST" duration-ms="15443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:39:50 IST" name="homePageTitleTest" finished-at="2021-04-19T12:39:50 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="closePopUpTest()[pri:2, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:39:50 IST" name="closePopUpTest" finished-at="2021-04-19T12:39:55 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUpTest -->
+        <test-method signature="GiftCardButtonTest()[pri:3, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:39:55 IST" name="GiftCardButtonTest" finished-at="2021-04-19T12:40:03 IST" duration-ms="7930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCardButtonTest -->
+        <test-method signature="selectCardTest()[pri:4, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:03 IST" name="selectCardTest" finished-at="2021-04-19T12:40:04 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCardTest -->
+        <test-method signature="AmountTextBoxTest()[pri:5, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:04 IST" name="AmountTextBoxTest" finished-at="2021-04-19T12:40:06 IST" duration-ms="2217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmountTextBoxTest -->
+        <test-method signature="RecipientNameTest()[pri:6, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:06 IST" name="RecipientNameTest" finished-at="2021-04-19T12:40:06 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecipientNameTest -->
+        <test-method signature="senderNameTest()[pri:7, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:06 IST" name="senderNameTest" finished-at="2021-04-19T12:40:07 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senderNameTest -->
+        <test-method signature="RecipientEmailTest()[pri:8, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:07 IST" name="RecipientEmailTest" finished-at="2021-04-19T12:40:07 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecipientEmailTest -->
+        <test-method signature="senderNoTest()[pri:9, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:07 IST" name="senderNoTest" finished-at="2021-04-19T12:40:08 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senderNoTest -->
+        <test-method signature="errorMessageTest()[pri:10, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:08 IST" name="errorMessageTest" finished-at="2021-04-19T12:40:09 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessageTest -->
+        <test-method signature="screenShotTest()[pri:11, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:09 IST" name="screenShotTest" finished-at="2021-04-19T12:40:11 IST" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateGiftCardEntry@1755e85b]" started-at="2021-04-19T12:40:11 IST" name="tearDown" finished-at="2021-04-19T12:40:12 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateGiftCardEntry -->
+      <class name="testcases.ValidateChairDetails">
+        <test-method is-config="true" signature="initialiseSetUp()[pri:0, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:38:57 IST" name="initialiseSetUp" finished-at="2021-04-19T12:39:11 IST" duration-ms="14137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:39:11 IST" name="homePageTitleTest" finished-at="2021-04-19T12:39:11 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="closePopUpTest()[pri:2, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:39:11 IST" name="closePopUpTest" finished-at="2021-04-19T12:39:19 IST" duration-ms="7982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUpTest -->
+        <test-method signature="searchBoxTest()[pri:3, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:39:19 IST" name="searchBoxTest" finished-at="2021-04-19T12:39:24 IST" duration-ms="5447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method signature="searchButtonTest()[pri:4, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:39:24 IST" name="searchButtonTest" finished-at="2021-04-19T12:39:29 IST" duration-ms="4375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonTest -->
+        <test-method signature="chairDetailsTest()[pri:5, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:39:29 IST" name="chairDetailsTest" finished-at="2021-04-19T12:39:33 IST" duration-ms="4026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The price of the first three study chair]]>
+            </line>
+            <line>
+              <![CDATA[Mika Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.13599]]>
+            </line>
+            <line>
+              <![CDATA[Dorsey Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.4399]]>
+            </line>
+            <line>
+              <![CDATA[Hawley Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.6999]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chairDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateChairDetails@17cdf2d0]" started-at="2021-04-19T12:39:33 IST" name="tearDown" finished-at="2021-04-19T12:39:34 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateChairDetails -->
+      <class name="testcases.ValidateSubMenu">
+        <test-method is-config="true" signature="initialiseSetUp()[pri:0, instance:testcases.ValidateSubMenu@2e9fda69]" started-at="2021-04-19T12:37:44 IST" name="initialiseSetUp" finished-at="2021-04-19T12:38:17 IST" duration-ms="32574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:testcases.ValidateSubMenu@2e9fda69]" started-at="2021-04-19T12:38:17 IST" name="homePageTitleTest" finished-at="2021-04-19T12:38:18 IST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="closePopUpTest()[pri:2, instance:testcases.ValidateSubMenu@2e9fda69]" started-at="2021-04-19T12:38:18 IST" name="closePopUpTest" finished-at="2021-04-19T12:38:25 IST" duration-ms="7415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUpTest -->
+        <test-method signature="CollectionButtonTest()[pri:3, instance:testcases.ValidateSubMenu@2e9fda69]" started-at="2021-04-19T12:38:25 IST" name="CollectionButtonTest" finished-at="2021-04-19T12:38:45 IST" duration-ms="19908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollectionButtonTest -->
+        <test-method signature="subMenuTest()[pri:4, instance:testcases.ValidateSubMenu@2e9fda69]" started-at="2021-04-19T12:38:45 IST" name="subMenuTest" finished-at="2021-04-19T12:38:54 IST" duration-ms="8974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The submenu list from 'Being at home' column:]]>
+            </line>
+            <line>
+              <![CDATA[Study Chairs]]>
+            </line>
+            <line>
+              <![CDATA[Study Tables]]>
+            </line>
+            <line>
+              <![CDATA[Study Lamps]]>
+            </line>
+            <line>
+              <![CDATA[Study Sets]]>
+            </line>
+            <line>
+              <![CDATA[Sofa Beds]]>
+            </line>
+            <line>
+              <![CDATA[Accent Chairs]]>
+            </line>
+            <line>
+              <![CDATA[Loveseats]]>
+            </line>
+            <line>
+              <![CDATA[Floor Lamps]]>
+            </line>
+            <line>
+              <![CDATA[Day Beds]]>
+            </line>
+            <line>
+              <![CDATA[Outdoor Tables]]>
+            </line>
+            <line>
+              <![CDATA[Balcony Swings]]>
+            </line>
+            <line>
+              <![CDATA[Balcony Chairs]]>
+            </line>
+            <line>
+              <![CDATA[Ottomans]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subMenuTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateSubMenu@2e9fda69]" started-at="2021-04-19T12:38:54 IST" name="tearDown" finished-at="2021-04-19T12:38:57 IST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateSubMenu -->
+      <class name="testcases.ValidateBookDetails">
+        <test-method is-config="true" signature="initialiseSetUp()[pri:0, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:12 IST" name="initialiseSetUp" finished-at="2021-04-19T12:40:32 IST" duration-ms="19763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:32 IST" name="homePageTitleTest" finished-at="2021-04-19T12:40:32 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="closePopUpTest()[pri:2, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:32 IST" name="closePopUpTest" finished-at="2021-04-19T12:40:41 IST" duration-ms="8548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUpTest -->
+        <test-method signature="searchBoxTest()[pri:3, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:41 IST" name="searchBoxTest" finished-at="2021-04-19T12:40:43 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method signature="searchButtonTest()[pri:4, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:43 IST" name="searchButtonTest" finished-at="2021-04-19T12:40:47 IST" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonTest -->
+        <test-method signature="categoryTest()[pri:5, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:47 IST" name="categoryTest" finished-at="2021-04-19T12:40:48 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryTest -->
+        <test-method signature="storageTypeTest()[pri:6, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:48 IST" name="storageTypeTest" finished-at="2021-04-19T12:40:50 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storageTypeTest -->
+        <test-method signature="outOfStockTest()[pri:7, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:50 IST" name="outOfStockTest" finished-at="2021-04-19T12:40:51 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outOfStockTest -->
+        <test-method signature="RecommandationTest()[pri:8, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:51 IST" name="RecommandationTest" finished-at="2021-04-19T12:40:53 IST" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecommandationTest -->
+        <test-method signature="bookDetailsTest()[pri:9, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:53 IST" name="bookDetailsTest" finished-at="2021-04-19T12:40:54 IST" duration-ms="1380" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The price of the first three bookshelves below Rs.15000:]]>
+            </line>
+            <line>
+              <![CDATA[Boeberg Cabinet Inserts:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.899]]>
+            </line>
+            <line>
+              <![CDATA[Boeberg Cabinet Inserts:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.1699]]>
+            </line>
+            <line>
+              <![CDATA[Boeberg Drawer Inserts:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.2699]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateBookDetails@736d6a5c]" started-at="2021-04-19T12:40:54 IST" name="tearDown" finished-at="2021-04-19T12:40:55 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateBookDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
